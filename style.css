@@ -1,0 +1,72 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Caja principal que centra y da forma de hoja al CV */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #1a365d;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    color: #4a5568;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Títulos de secciones */
+h3 {
+    color: #1a365d;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Subtítulos y fechas */
+h4 {
+    margin-bottom: 2px;
+    color: #2d3748;
+}
+
+.fecha {
+    font-size: 13px;
+    color: #718096;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+/* Espaciado para elementos individuales */
+.item {
+    margin-bottom: 15px;
+}
+
+/* Viñetas */
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 4px;
+}
